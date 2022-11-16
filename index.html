@@ -15,7 +15,7 @@
             <div class="company-logo">
                 <img src="images/Logo.png" alt="εργατεξ" width="261" height="79">
             </div>
-            <nav class="navBar">
+            <nav class="navBar" aria-label="Site menu">
                 <ul>
                     <li><a href="#">Αρχική</a></li>
                     <li><a href="#">Η εταιρεία</a></li>
@@ -26,6 +26,45 @@
                     <li><a href="#">Επικοινωνία</a></li>
                 </ul>
             </nav>
+
+            <div class="subContainer">
+                <nav class="navbar" aria-label="Burger Menu">
+                    <!-- <a href="#" class="nav-branding">Dev.</a> -->
+                    <div>
+                        <img src="images/Logo.png" alt="">
+                    </div>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Αρχική</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Η εταιρεία</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Προϊόντα</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Τα έργα μας</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Συνεργάτες</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Τεχνική υποστήριξη</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Επικοινωνία</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+
         </div>
     </header>
     <main>
@@ -51,7 +90,7 @@
                 </p>
                 <div class="box">
                     <img src="images/Image-2.jpg" alt="" srcset="" width="387" height="329">
-                    <p><span id="span">Δώστε αξία στο χώρο σας </span>
+                    <p><span id="span">Δώστε αξία στο χώρο σας </span><br>
                         Τα προϊόντα από Διογκωμένη Πολυστερίνη - EPS χαρακτηρίζονται απο σταθερότητα στο χρόνο, τη
                         μηχανική αντοχή τους, την αντοχή τους στην υγρασία, τη χαμηλή τους τιμή, την ευελιξία τους,
                         την
@@ -94,7 +133,7 @@
                 </div>
             </div>
             <div class="paragraphs2">
-                <p>Η Διογκωμένη Πολυστερίνη - EPS είναι το καλ΄θτερο υλικο συσκευασίας.</p>
+                <p>Η Διογκωμένη Πολυστερίνη - EPS είναι το καλύτερο υλικο συσκευασίας.</p>
                 <p>Οι εφαρμογές απεριόριστες από πλευράς ποιότητας, οικονομίας, υγιεινής και ασφάλειας.</p>
             </div>
         </div>
@@ -133,5 +172,9 @@
         </div>
     </footer>
 </body>
+
+<script src="humbergerNav.js">
+</script>
+
 
 </html>
